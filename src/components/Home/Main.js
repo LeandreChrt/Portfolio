@@ -9,10 +9,14 @@ export default function MainHome(props) {
 
     return (
         <div className='homeContainer'>
-            <img height="300px" src={imgProfile} alt='Léandre Chretiennot'></img>
-            <h1>Léandre CHRETIENNOT</h1>
-            <h2>{text.metier[language]}</h2>
-            <h3 dangerouslySetInnerHTML={{ __html: text.situation[language] }}></h3>
+            <div className='leftContainer'>
+                <h1>Léandre CHRETIENNOT</h1>
+                <h2>{text.metier[language]}</h2>
+                <h3 dangerouslySetInnerHTML={{ __html: text.situation[language] }}></h3>
+            </div>
+            <div className='rightContainer'>
+                {/* <img height="300px" width="240px" src={imgProfile} alt='Léandre Chretiennot'></img> */}
+            </div>
         </div>
     );
 }

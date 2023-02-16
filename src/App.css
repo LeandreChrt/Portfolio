@@ -8,7 +8,7 @@
   --TextColor: #efefef;
   --SubColor: #dad2d8;
   --TitleFontFamily: sans-serif;
-  --BodyFontFamily: Warownia;
+  --BodyFontFamily: serif;
 }
 
 * {
@@ -39,4 +39,12 @@
 
 .clickable {
   cursor: pointer;
+}
+
+body {
+  font-family: var(--BodyFontFamily);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--TitleFontFamily);
 }
