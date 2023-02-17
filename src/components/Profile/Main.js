@@ -1,3 +1,4 @@
+import './Profile.css'
 import React from 'react'
 import text from "./Text.json"
 
@@ -6,10 +7,18 @@ export default function MainProfile(props) {
 	const language = props.language
 
 	return (
-		<div className='profileContainer'>
-			<h1 className='text'>HELLO WORLD</h1>
-			<p className='text'>Salut les cailloux</p>
-			<p>{text.presentation[language]}</p>
+		<div id='profileContainer'>
+			<div className='topContainer'>
+				<div className='leftContainer'>
+					<h1>Présentation</h1>
+				</div>
+				<div className='rightContainer'>
+					<h1>Parcours</h1>
+				</div>
+			</div>
+			<div className='bottomContainer'>
+				<h1>Divers</h1>
+			</div>
 		</div>
 	);
 }

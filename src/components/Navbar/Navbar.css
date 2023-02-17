@@ -22,7 +22,6 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: var(--TextColor);
     display: block;
     transition: 0.3s;
 }
@@ -54,4 +53,5 @@
 .burgerContainer {
     display: block;
     width: 35px;
+    padding: 10px;
 }

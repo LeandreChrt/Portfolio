@@ -8,7 +8,7 @@
   --TextColor: #efefef;
   --SubColor: #dad2d8;
   --TitleFontFamily: sans-serif;
-  --BodyFontFamily: serif;
+  --BodyFontFamily: sans-serif;
 }
 
 * {
@@ -22,7 +22,6 @@
   background-color: var(--PrimaryColor);
   color: var(--TextColor);
   display: flex;
-  padding: 5px;
   height: 100vh;
 }
 
@@ -47,4 +46,8 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--TitleFontFamily);
+}
+
+a {
+  color: var(--TextColor);
 }

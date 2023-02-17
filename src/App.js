@@ -7,7 +7,7 @@ import MainHome from './components/Home/Main';
 
 function App() {
 
-	const [language, setLanguage] = useState("fr");
+	const [language, setLanguage] = useState("en");
 	const [sidenavActive, setSidenavActive] = useState(false);
 
 	return (

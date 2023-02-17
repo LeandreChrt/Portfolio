@@ -1,0 +1,26 @@
+#profileContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profileContainer .topContainer, #profileContainer .bottomContainer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#profileContainer .topContainer {
+    height: 60vh;
+}
+
+#profileContainer .bottomContainer {
+    height: 40vh;
+}
+
+#profileContainer .rightContainer, #profileContainer .leftContainer {
+    width: 50%;
+    text-align: center;
+}

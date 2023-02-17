@@ -8,9 +8,9 @@ export default function Navbar(props) {
 	const language = props.language
 
 	return (
-		<div className='navbarContainer'>
+		<div id='navbarContainer'>
 			<div className={`sidenav ${props.sidenavActive ? "active" : ""}`}>
-				<a onClick={x => props.setSidenavActive(false)} className="close clickable">&times;</a>
+				<a onClick={x => props.setSidenavActive(false)} className="close clickable">&larr;</a>
 				<ul>
 					<li>
 						<Link to={""}>{text.accueil[language]}</Link>
