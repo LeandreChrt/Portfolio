@@ -53,5 +53,8 @@
 .burgerContainer {
     display: block;
     width: 35px;
+}
+
+#navbarContainer {
     padding: 10px;
 }

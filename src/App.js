@@ -4,10 +4,11 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar/Main';
 import MainProfile from './components/Profile/Main';
 import MainHome from './components/Home/Main';
+import MainProject from './components/Projects/Main';
 
 function App() {
 
-	const [language, setLanguage] = useState("en");
+	const [language, setLanguage] = useState("fr");
 	const [sidenavActive, setSidenavActive] = useState(false);
 
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<MainHome language={language} />} />
 					<Route path='/profile' element={<MainProfile language={language} />} />
+					<Route path='/projects' element={<MainProject language={language} />} />
 				</Routes>
 			</div>
 		</div>

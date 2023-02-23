@@ -1,6 +1,68 @@
 {
+    "experiences": [
+        {
+            "years": [2008, 2019],
+            "title": {
+                "fr": "Scolarisation à domicile",
+                "en": "Home schooling",
+                "jp": ""
+            }
+        },
+        {
+            "years": [2018],
+            "title": {
+                "fr": "Service civique",
+                "en": "Civic service",
+                "jp": ""
+            },
+            "subtitle": {
+                "fr": "Tourisme à Paris",
+                "en": "Tourism in Paris",
+                "jp": ""
+            }
+        },
+        {
+            "years": [2019, 2020],
+            "title": {
+                "fr": "Volontariat",
+                "en": "Volunteering",
+                "jp": ""
+            },
+            "subtitle": {
+                "fr": "Communauté de Taizé",
+                "en": "Taizé community",
+                "jp": ""
+            }
+        },
+        {
+            "years": [2021, 2023],
+            "title": {
+                "fr": "Développement web",
+                "en": "Web developpement",
+                "jp": ""
+            },
+            "subtitle": {
+                "fr": "Web@cadémie par EPITECH",
+                "en": "Web@cadémie by EPITECH",
+                "jp": ""
+            }
+        },
+        {
+            "years": [2022, 2023],
+            "title": {
+                "fr": "Alternance",
+                "en": "Work-study",
+                "jp": ""
+            },
+            "subtitle": {
+                "fr": "VPWhite",
+                "en": "VPWhite",
+                "jp": ""
+            }
+        }
+    ],
     "presentation": {
-        "fr": "Hello world",
+        "fr": "",
         "en": "",
         "jp": ""
     }

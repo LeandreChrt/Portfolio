@@ -1,6 +1,7 @@
 import './Profile.css'
 import React from 'react'
 import text from "./Text.json"
+import Experience from './Experience';
 
 export default function MainProfile(props) {
 
@@ -13,7 +14,7 @@ export default function MainProfile(props) {
 					<h1>Présentation</h1>
 				</div>
 				<div className='rightContainer'>
-					<h1>Parcours</h1>
+					{text.experiences.map((experience, key) => <Experience key={key} language={language} experience={experience}></Experience>)}
 				</div>
 			</div>
 			<div className='bottomContainer'>

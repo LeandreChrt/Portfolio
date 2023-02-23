@@ -8,5 +8,10 @@
         "fr": "Profil",
         "en": "Profile",
         "jp": ""
+    },
+    "projects": {
+        "fr": "Projets",
+        "en": "Projects",
+        "jp": ""
     }
 }

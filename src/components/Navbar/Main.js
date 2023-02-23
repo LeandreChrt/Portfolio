@@ -18,6 +18,9 @@ export default function Navbar(props) {
 					<li>
 						<Link to={"profile"}>{text.profile[language]}</Link>
 					</li>
+					<li>
+						<Link to={"projects"}>{text.projects[language]}</Link>
+					</li>
 				</ul>
 			</div>
 

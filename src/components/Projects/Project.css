@@ -1,0 +1,95 @@
+:root {
+    --ProjectTitleSize: 70px
+}
+
+#projectsContainer {
+    margin: 20vh 15vw 10vh;
+}
+
+#projectsContainer .projectList {
+    display: flex;
+}
+
+#projectsContainer .projectNameBox {
+    position: relative;
+    flex: 1 1 0px;
+    height: var(--ProjectTitleSize);
+    width: 200px;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%);
+    background-color: var(--SecondaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projectsContainer .projectNameBox:hover {
+    cursor: pointer;
+}
+
+#projectsContainer .projectNameBox::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    clip-path: polygon(30% 0%, 70% 0%, 100% calc(50% + 1px), 100% 100%, 0% 100%, 0% calc(50% + 1px));
+    background-color: var(--PrimaryColor);
+    z-index : -1;
+}
+
+#projectsContainer .projectNameBox.active {
+    color: var(--PrimaryColor);
+}
+
+#projectsContainer .projectNameBox.active::before {
+    background-color: var(--SecondaryColor);
+}
+
+#projectsContainer .projectNameBox p {
+    max-width: 60%;
+    text-align: center;
+}
+
+#projectsContainer .projectBox {
+    border: 1px solid var(--SecondaryColor);
+    height: calc(70vh - var(--ProjectTitleSize));
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#projectsContainer .mainProjectSection {
+    height: 40%;
+    text-align: center;
+}
+
+#projectsContainer .mainProjectSection h2 {
+    margin: 10px;
+}
+
+#projectsContainer .subProjectSection {
+    height: 60%;
+    display: flex;
+}
+
+#projectsContainer .projectUtils {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+#projectsContainer .projectUtils p {
+    margin: 10px;
+    font-weight: bold;
+}
+
+#projectsContainer .imageCarousel {
+    width: 60%;
+    /* height: 50%; */
+    margin: auto;
+}
+
+#projectsContainer [class^='Carousel__Item'] {
+    margin: auto;
+}

@@ -10,6 +10,7 @@
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #profileContainer .topContainer {
@@ -22,5 +23,20 @@
 
 #profileContainer .rightContainer, #profileContainer .leftContainer {
     width: 50%;
+    height: 100%;
     text-align: center;
+}
+
+#profileContainer .rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+}
+
+#profileContainer .experienceContainer {
+    border: 1px solid var(--SecondaryColor);
+    flex: 1;
+    margin: 10px 10%;
+    padding: 10px;
 }
