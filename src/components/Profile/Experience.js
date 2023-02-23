@@ -7,8 +7,16 @@ export default function Experience(props) {
 
     return (
 		<div className='experienceContainer'>
-            <h2>{experience.title[language]} ({experience.years.join(" - ")})</h2>
-			<h4>{experience.subtitle ? experience.subtitle[language] : ""}</h4>
+            <h2 className='experienceTitle'>{experience.title[language]} ({experience.years.join(" - ")})</h2>
+			<ul className='experienceInfos'>
+				{
+					experience.additionalContent.map((infos, idx) =>
+						<li key={idx} className="experienceInfo">
+							{infos[language]}
+						</li>
+					)
+				}
+			</ul>
 		</div>
 	);
 }

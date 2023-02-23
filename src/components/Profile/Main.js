@@ -11,9 +11,11 @@ export default function MainProfile(props) {
 		<div id='profileContainer'>
 			<div className='topContainer'>
 				<div className='leftContainer'>
-					<h1>Présentation</h1>
+					<h2>{text.education[language]}</h2>
+					{text.educations.map((experience, key) => <Experience key={key} language={language} experience={experience}></Experience>)}
 				</div>
 				<div className='rightContainer'>
+					<h2>{text.experience[language]}</h2>
 					{text.experiences.map((experience, key) => <Experience key={key} language={language} experience={experience}></Experience>)}
 				</div>
 			</div>

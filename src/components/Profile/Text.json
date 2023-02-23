@@ -1,52 +1,10 @@
 {
+    "experience": {
+        "fr": "Expériences",
+        "en": "Experiences",
+        "jp": ""
+    },
     "experiences": [
-        {
-            "years": [2008, 2019],
-            "title": {
-                "fr": "Scolarisation à domicile",
-                "en": "Home schooling",
-                "jp": ""
-            }
-        },
-        {
-            "years": [2018],
-            "title": {
-                "fr": "Service civique",
-                "en": "Civic service",
-                "jp": ""
-            },
-            "subtitle": {
-                "fr": "Tourisme à Paris",
-                "en": "Tourism in Paris",
-                "jp": ""
-            }
-        },
-        {
-            "years": [2019, 2020],
-            "title": {
-                "fr": "Volontariat",
-                "en": "Volunteering",
-                "jp": ""
-            },
-            "subtitle": {
-                "fr": "Communauté de Taizé",
-                "en": "Taizé community",
-                "jp": ""
-            }
-        },
-        {
-            "years": [2021, 2023],
-            "title": {
-                "fr": "Développement web",
-                "en": "Web developpement",
-                "jp": ""
-            },
-            "subtitle": {
-                "fr": "Web@cadémie par EPITECH",
-                "en": "Web@cadémie by EPITECH",
-                "jp": ""
-            }
-        },
         {
             "years": [2022, 2023],
             "title": {
@@ -58,12 +16,203 @@
                 "fr": "VPWhite",
                 "en": "VPWhite",
                 "jp": ""
-            }
+            },
+            "additionalContent": [
+                {
+                    "fr": "Conception de pages à la demande du client",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Traitement de données",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Rédaction de la documentation technique du framework interne",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Réunions et prises de décisions concernant les évolutions de la plateforme",
+                    "en": "",
+                    "jp": ""
+                }
+            ]
+        },
+        {
+            "years": [2019, 2020],
+            "title": {
+                "fr": "Communauté de Taizé - Bénévole",
+                "en": "Taizé community - Volunteer",
+                "jp": ""
+            },
+            "additionalContent": [
+                {
+                    "fr": "Responsable d'équipes internationale (4 équipes de 4 à 16 personnes)",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Animation et service pour 500 adultes",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Responsable sécurité de la rencontre Européenne à Wrocław en Pologne (11 000 jeunes)",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Management et coordinateur des équipes de bénévoles, avec la police et les pompiers",
+                    "en": "",
+                    "jp": ""
+                }
+            ]
+        },
+        {
+            "years": [2018],
+            "title": {
+                "fr": "Unis Cité, Volontaire de Paris",
+                "en": "Unis Cité, Volunteer from Paris",
+                "jp": ""
+            },
+            "additionalContent": [
+                {
+                    "fr": "Gestion d'équipe (6 personnes)",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Conception et réalisation d'une balade touristique autour des ponts de Paris",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Informations auprès des touristes français et étranger à Paris",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Surveillance à l'intérieur du palais de l'Élysée lors des journées du patrimoine",
+                    "en": "",
+                    "jp": ""
+                }
+            ]
         }
     ],
-    "presentation": {
-        "fr": "",
-        "en": "",
+    "education": {
+        "fr": "Éducation",
+        "en": "Education",
         "jp": ""
+    },
+    "educations": [
+        {
+            "years": [2021, 2023],
+            "title": {
+                "fr": "Web@cadémie par EPITECH",
+                "en": "Web@cadémie by EPITECH",
+                "jp": ""
+            },
+            "additionalContent": [
+                {
+                    "fr": "Apprentissage des technologies Web en mode projet",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Travail en équipe avec gestion individuelle des charges et des deadlines",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Management de l'équipe et du projet",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Assistant pédagogique pour des étudiants BM2 de l'ISG Paris",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "GPA de 3.42/4",
+                    "en": "",
+                    "jp": ""
+                }
+            ]
+        },
+        {
+            "years": [2018],
+            "title": {
+                "fr": "PSC1",
+                "en": "",
+                "jp": ""
+            },
+            "additionalContent": []
+        },
+        {
+            "years": [2018],
+            "title": {
+                "fr": "ASSR2",
+                "en": "",
+                "jp": ""
+            },
+            "additionalContent": []
+        },
+        {
+            "years": [2008, 2019],
+            "title": {
+                "fr": "Scolarisation à domicile",
+                "en": "Home schooling",
+                "jp": ""
+            },
+            "additionalContent": []
+        }
+    ],
+    "languages": [
+        {
+            "fr": "Français : Langue maternelle",
+            "en": "French : Native language",
+            "jp": ""
+        }, {
+            "fr": "Anglais : Courant",
+            "en": "English : Fluent",
+            "jp": ""
+        }, {
+            "fr": "Japonais : Élémentaire (13 en LV3 au bac)",
+            "en": "Japanese : Elementary (13 in LV3 at the baccalaureate)",
+            "jp": ""
+        }
+    ],
+    "computerLanguages": [
+        "HTML : 8/10",
+        "CSS : 8/10",
+        "JavaScript : 8/10 (JQuery, NodeJS, React, VueJS)",
+        "PHP : 7/10 (Symfony)",
+        "C# : 4/10 (Razor)",
+        "Ruby : 3/10 (Ruby On Rails, RPG Maker XP)"
+    ],
+    "hobbies": [
+        {
+            "fr": "Voyages",
+            "en": "Travel",
+            "jp": ""
+        }, {
+            "fr": "Hockey sur gazon (10 ans en club, vice-champion de France)",
+            "en": "Field hockey (10 years in club, vice-champion of France)",
+            "jp": ""
+        }, {
+            "fr": "Volleyball (2 ans en club)",
+            "en": "Volleyball (2 years in club)",
+            "jp": ""
+        }, {
+            "fr": "Culture et sous-culture japonaise",
+            "en": "Japanese culture and sub-culture",
+            "jp": ""
+        }, {
+            "fr": "Gaming et jeux de plateau",
+            "en": "Video gaming and board game",
+            "jp": ""
+        }, {
+            "fr": "Créateur et animateur de jeux de rôles",
+            "en": "Creator and animator of role-playing games",
+            "jp": ""
+        }
+    ],
+    "links": [
+        "https://github.com/LeandreChrt",
+        "https://LeandreChrt.github.io"
+    ],
+    "coordinates": {
+        "phone": "+33 7 67 08 61 10",
+        "email": "leandrechretiennot@outlook.com"
     }
 }

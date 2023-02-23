@@ -14,29 +14,42 @@
 }
 
 #profileContainer .topContainer {
-    height: 60vh;
+    height: 68vh;
+    margin-top: 2vh;
 }
 
 #profileContainer .bottomContainer {
-    height: 40vh;
+    height: 30vh;
 }
 
 #profileContainer .rightContainer, #profileContainer .leftContainer {
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
 }
 
-#profileContainer .rightContainer {
+/* #profileContainer .rightContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: start;
-}
+} */
 
 #profileContainer .experienceContainer {
     border: 1px solid var(--SecondaryColor);
     flex: 1;
-    margin: 10px 10%;
+    margin: 10px 5%;
     padding: 10px;
+    text-align: start;
+}
+
+#profileContainer .experienceTitle {
+    margin-bottom: 10px;
+}
+
+#profileContainer .experienceInfo {
+    margin: 5px 0;
 }
