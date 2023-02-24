@@ -43,6 +43,16 @@
     font-size: 36px;
 }
 
+.sidenav .languages {
+    position: absolute;
+    top: 12px;
+    left: 32px;
+}
+
+.sidenav .languages .cleanBorder {
+    border: 0;
+}
+
 .burger-icon span {
     display: block;
     width: 35px;

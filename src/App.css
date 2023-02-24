@@ -6,6 +6,8 @@
   --PrimaryColor: #1a0833;
   --SecondaryColor: #f08324;
   --TextColor: #efefef;
+  --FocusedColor: #c7c7c7;
+  --SelectedColor: #a1a1a1;
   --TitleFontFamily: sans-serif;
   --BodyFontFamily: sans-serif;
 }

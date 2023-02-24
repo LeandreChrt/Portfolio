@@ -13,7 +13,7 @@ function App() {
 
 	return (
 		<div className='MainContainer'>
-			<Navbar setSidenavActive={setSidenavActive} sidenavActive={sidenavActive} language={language} />
+			<Navbar setSidenavActive={setSidenavActive} sidenavActive={sidenavActive} language={language} setLanguage={setLanguage} />
 			<div className={`mainApp ${sidenavActive ? "sidenavActive" : ""}`}>
 				<Routes>
 					<Route path='/' element={<MainHome language={language} />} />

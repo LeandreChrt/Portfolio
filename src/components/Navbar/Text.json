@@ -1,4 +1,8 @@
 {
+    "languagues": [
+        {"value": "fr", "label": "Français"},
+        {"value": "en", "label": "English"}
+    ],
     "accueil": {
         "fr": "Accueil",
         "en": "Home",
