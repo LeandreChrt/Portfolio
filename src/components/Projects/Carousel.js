@@ -8,13 +8,23 @@ export default function CarouselComp(props) {
     const images = require.context('../../assets')
     const [slideIndex, setSlideIndex] = useState(0)
 
+    const [windowHeight, setwindowHeight] = useState(window.innerHeight)
+
     const befSlide = (currIndex, nextIndex) => {
         setSlideIndex(nextIndex)
+    }
+
+    const handleResize = () => {
+        setwindowHeight(window.innerHeight)
     }
 
     useEffect(() => {
         setSlideIndex(0);
     }, [project])
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize)
+    })
     
     return (
         <Carousel
@@ -23,7 +33,7 @@ export default function CarouselComp(props) {
         >
             {project.images.map((image, idx) => 
                 <div className='imageCarousel' key={idx}>
-                    <img width="100%" src={images(image)}/>
+                    <img height={`${windowHeight * 0.8 * 0.7 - 80}px`} src={images(image)}/>
                 </div>
             )}
         </Carousel>

@@ -1,13 +1,13 @@
-:root {
-    --ProjectTitleSize: 70px
-}
-
 #projectsContainer {
-    margin: 20vh 15vw 10vh;
+    margin: 10vh 15vw;
 }
 
 #projectsContainer .projectList {
     display: flex;
+}
+
+#projectsContainer .projectList, #projectsContainer .projectBox {
+    width: 60vw;
 }
 
 #projectsContainer .projectNameBox {
@@ -53,14 +53,14 @@
 
 #projectsContainer .projectBox {
     border: 1px solid var(--SecondaryColor);
-    height: calc(70vh - var(--ProjectTitleSize));
+    height: calc(80vh - var(--ProjectTitleSize));
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
 
 #projectsContainer .mainProjectSection {
-    height: 40%;
+    height: 20%;
     text-align: center;
 }
 
@@ -68,15 +68,10 @@
     margin: 10px;
 }
 
-#projectsContainer .subProjectSection {
-    height: 60%;
-    display: flex;
-}
-
 #projectsContainer .projectUtils {
-    width: 40%;
-    text-align: center;
-    margin: auto;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #projectsContainer .projectUtils p {
@@ -84,12 +79,11 @@
     font-weight: bold;
 }
 
-#projectsContainer .imageCarousel {
-    width: 60%;
-    /* height: 50%; */
-    margin: auto;
+#projectsContainer .carouselContainer {
+    height: 70%;
 }
 
-#projectsContainer [class^='Carousel__Item'] {
+#projectsContainer .imageCarousel {
+    text-align: center;
     margin: auto;
 }

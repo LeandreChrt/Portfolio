@@ -8,8 +8,8 @@
         {
             "years": [2022, 2023],
             "title": {
-                "fr": "Alternance",
-                "en": "Work-study",
+                "fr": "VPWhite - Alternant",
+                "en": "VPWhite - Work-study",
                 "jp": ""
             },
             "subtitle": {
@@ -19,20 +19,20 @@
             },
             "additionalContent": [
                 {
-                    "fr": "Conception de pages à la demande du client",
-                    "en": "",
+                    "fr": "Conception et réalisation de pages web à la demande du client",
+                    "en": "Design and production of web pages at the request of the client",
                     "jp": ""
                 }, {
                     "fr": "Traitement de données",
-                    "en": "",
+                    "en": "Data processing",
                     "jp": ""
                 }, {
                     "fr": "Rédaction de la documentation technique du framework interne",
-                    "en": "",
+                    "en": "Writing of the technical documentation for the internal framework",
                     "jp": ""
                 }, {
                     "fr": "Réunions et prises de décisions concernant les évolutions de la plateforme",
-                    "en": "",
+                    "en": "Meetings and decision-making regarding platform developments",
                     "jp": ""
                 }
             ]
@@ -47,19 +47,19 @@
             "additionalContent": [
                 {
                     "fr": "Responsable d'équipes internationale (4 équipes de 4 à 16 personnes)",
-                    "en": "",
+                    "en": "International team manager (4 teams of 4 to 16 people)",
                     "jp": ""
                 }, {
-                    "fr": "Animation et service pour 500 adultes",
-                    "en": "",
+                    "fr": "Animation et service pour 500 jeunes adultes",
+                    "en": "Entertainment and service for 500 young adults",
                     "jp": ""
                 }, {
-                    "fr": "Responsable sécurité de la rencontre Européenne à Wrocław en Pologne (11 000 jeunes)",
-                    "en": "",
+                    "fr": "Responsable sécurité de la rencontre Européenne à Wrocław (11&nbsp;000 jeunes)",
+                    "en": "Security manager for the European meeting in Wrocław (11,000 people)",
                     "jp": ""
                 }, {
-                    "fr": "Management et coordinateur des équipes de bénévoles, avec la police et les pompiers",
-                    "en": "",
+                    "fr": "Management des équipes de bénévoles, avec la police et les pompiers",
+                    "en": "Management of volunteer teams, with the police and firefighters",
                     "jp": ""
                 }
             ]
@@ -74,19 +74,19 @@
             "additionalContent": [
                 {
                     "fr": "Gestion d'équipe (6 personnes)",
-                    "en": "",
+                    "en": "Team management (6 people)",
                     "jp": ""
                 }, {
                     "fr": "Conception et réalisation d'une balade touristique autour des ponts de Paris",
-                    "en": "",
+                    "en": "Design and realization of a tourist walk around the bridges of Paris",
                     "jp": ""
                 }, {
                     "fr": "Informations auprès des touristes français et étranger à Paris",
-                    "en": "",
+                    "en": "Information for French and foreign tourists in Paris",
                     "jp": ""
                 }, {
                     "fr": "Surveillance à l'intérieur du palais de l'Élysée lors des journées du patrimoine",
-                    "en": "",
+                    "en": "Surveillance inside the Élysée Palace during Heritage Days",
                     "jp": ""
                 }
             ]
@@ -108,23 +108,23 @@
             "additionalContent": [
                 {
                     "fr": "Apprentissage des technologies Web en mode projet",
-                    "en": "",
+                    "en": "Learning web technologies in project mode",
                     "jp": ""
                 }, {
                     "fr": "Travail en équipe avec gestion individuelle des charges et des deadlines",
-                    "en": "",
+                    "en": "Teamwork with individual management of workloads and deadlines",
                     "jp": ""
                 }, {
                     "fr": "Management de l'équipe et du projet",
-                    "en": "",
+                    "en": "Team and project management",
                     "jp": ""
                 }, {
                     "fr": "Assistant pédagogique pour des étudiants BM2 de l'ISG Paris",
-                    "en": "",
+                    "en": "Pedagogical assistant for BM2 students from ISG Paris",
                     "jp": ""
                 }, {
                     "fr": "GPA de 3.42/4",
-                    "en": "",
+                    "en": "GPA of 3.42/4",
                     "jp": ""
                 }
             ]
@@ -133,16 +133,7 @@
             "years": [2018],
             "title": {
                 "fr": "PSC1",
-                "en": "",
-                "jp": ""
-            },
-            "additionalContent": []
-        },
-        {
-            "years": [2018],
-            "title": {
-                "fr": "ASSR2",
-                "en": "",
+                "en": "Prevention and first aid level 1",
                 "jp": ""
             },
             "additionalContent": []
@@ -150,7 +141,7 @@
         {
             "years": [2008, 2019],
             "title": {
-                "fr": "Scolarisation à domicile",
+                "fr": "Instruction à domicile",
                 "en": "Home schooling",
                 "jp": ""
             },
@@ -163,12 +154,12 @@
             "en": "French : Native language",
             "jp": ""
         }, {
-            "fr": "Anglais : Courant",
-            "en": "English : Fluent",
+            "fr": "Anglais : Courant (C1)",
+            "en": "English : Fluent (C1)",
             "jp": ""
         }, {
-            "fr": "Japonais : Élémentaire (13 en LV3 au bac)",
-            "en": "Japanese : Elementary (13 in LV3 at the baccalaureate)",
+            "fr": "Japonais : A2",
+            "en": "Japanese : A2",
             "jp": ""
         }
     ],
@@ -182,8 +173,8 @@
     ],
     "hobbies": [
         {
-            "fr": "Voyages",
-            "en": "Travel",
+            "fr": "Voyages (Séjour allant jusqu'à 4 mois dans près de 20 pays)",
+            "en": "Travel (Stay of up to 4 months in nearly 20 countries)",
             "jp": ""
         }, {
             "fr": "Hockey sur gazon (10 ans en club, vice-champion de France)",
@@ -207,10 +198,9 @@
             "jp": ""
         }
     ],
-    "links": [
-        "https://github.com/LeandreChrt",
-        "https://LeandreChrt.github.io"
-    ],
+    "links": {
+        "github": "https://github.com/LeandreChrt"
+    },
     "coordinates": {
         "phone": "+33 7 67 08 61 10",
         "email": "leandrechretiennot@outlook.com"

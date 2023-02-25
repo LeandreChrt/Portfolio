@@ -1,11 +1,11 @@
 /* Sidenav menu */
 .sidenav {
     height: 100%;
-    width: 250px;
+    width: var(--SidenavWidth);
     position: fixed;
     z-index: 1;
     top: 0;
-    left: -250px;
+    left: calc(-1 * var(--SidenavWidth));
     background-color: var(--SecondaryColor);
     padding-top: 60px;
     transition: left 0.5s ease;

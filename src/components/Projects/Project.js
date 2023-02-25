@@ -13,12 +13,7 @@ export default function Project(props) {
                 <h2>{project.title[language]}</h2>
                 <p dangerouslySetInnerHTML={{ __html: project.explenation[language] }}></p>
             </div>
-            <div className='subProjectSection'>
-                <div className='projectUtils'>
-                    {project.techno.map((tech, idx) => 
-                        <p key={idx}>{tech}</p>
-                    )}
-                </div>
+            <div className='carouselContainer'>
                 <div className='imageCarousel'>
                     {project.images.length > 0 ?
                         <CarouselComp project={project} key={project}>
@@ -27,6 +22,11 @@ export default function Project(props) {
                         <h4 style={{textAlign: "center", margin: "auto"}}>Pas d'images</h4>
                     }
                 </div>
+            </div>
+            <div className='projectUtils'>
+                {project.techno.map((tech, idx) =>
+                    <p key={idx}>{tech}</p>
+                )}
             </div>
 		</div>
 	);

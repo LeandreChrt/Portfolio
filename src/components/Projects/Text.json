@@ -8,12 +8,12 @@
             },
             "explenation": {
                 "fr": "Proform est un projet interne de VPWhite créé pour faciliter la gestion des taches.<br/> Il est constitué de cinq sections (Liste, Kanban, Gantt, Plumb et Dashboard) et de nombreux filtres/tris.",
-                "en": "",
+                "en": "Proform is an internal VPWhite project created to facilitate task management.<br/> It consists of five sections (List, Kanban, Gantt, Plumb and Dashboard) and many filters/sorts.",
                 "jp": ""
             },
             "techno": [
-                "Razor",
-                "VueJS"
+                "VueJS",
+                "Razor"
             ],
             "images": [
                 "./proform_1.jpg",
@@ -29,13 +29,19 @@
                 "jp": ""
             },
             "explenation": {
-                "fr": "",
+                "fr": "Mak'o est le projet de fin de première année à la Web@cadémie. Il s'agit d'un site d'e-commerce inspiré d'Amazon, avec une notion écologiste en plus.<br/><a target='_blank' href='https://github.com/dounyadelren/plateforme_ecommerce_mako'>Code source</a>",
                 "en": "",
                 "jp": ""
             },
             "techno": [
+                "React",
+                "Symfony"
             ],
             "images": [
+                "./Mako_1.png",
+                "./Mako_2.jpg",
+                "./Mako_3.jpg",
+                "./Mako_4.jpg"
             ]
         }, {
             "title": {
@@ -44,13 +50,17 @@
                 "jp": ""
             },
             "explenation": {
-                "fr": "",
-                "en": "",
+                "fr": "Il s'agit d'un jeu de rôle créé entièrement à la main.<br/>La première version à été utilisée entre 2019 et 2020. La deuxième version (d'où proviennent les images) est en conception depuis 2020.",
+                "en": "This is a role-playing game created entirely by hand.<br/>The first version was used between 2019 and 2020. The second version (where the images come from) has been in design since 2020.",
                 "jp": ""
             },
             "techno": [
+                "Handmade"
             ],
             "images": [
+                "./Jeu_de_Role_1.png",
+                "./Jeu_de_Role_2.png",
+                "./Jeu_de_Role_3.png"
             ]
         }, {
             "title": {
@@ -59,8 +69,8 @@
                 "jp": ""
             },
             "explenation": {
-                "fr": "Pokémon Dimension est un fangame pokémon développé sur RPG Maker XP.<br/>Ce jeu inclut : <br/>Une nouvelle région à explorer !<br/>Plus de 150 pokémons originaux à attraper !<br/>Une nouvelle mécanique de combat",
-                "en": "",
+                "fr": "Pokémon Dimension est un fangame pokémon développé sur RPG Maker XP.<br/>Ce jeu inclut : Une nouvelle région à explorer ! Plus de 150 pokémons originaux à attraper ! Une nouvelle mécanique de combat !",
+                "en": "Pokémon Dimension is a pokémon fangame developed on RPG Maker XP.<br/>This game includes : A new region to explore ! Over 150 original pokémons to catch ! A new mechanic in battle !",
                 "jp": ""
             },
             "techno": [
@@ -81,13 +91,16 @@
                 "jp": ""
             },
             "explenation": {
-                "fr": "",
+                "fr": "Kooloc est notre projet de fin de formation. Il s'agit d'une plateforme facilitant la gestion de sa colocation.<br/>Bien qu'en court de développement, nous avons l'intention dans le futur d'en faire une application mobile.",
                 "en": "",
                 "jp": ""
             },
             "techno": [
+                "React",
+                "NodeJS"
             ],
             "images": [
+                "./Kooloc_1.png"
             ]
         }
     ]

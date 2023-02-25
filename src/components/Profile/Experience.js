@@ -11,8 +11,7 @@ export default function Experience(props) {
 			<ul className='experienceInfos'>
 				{
 					experience.additionalContent.map((infos, idx) =>
-						<li key={idx} className="experienceInfo">
-							{infos[language]}
+						<li key={idx} className="experienceInfo" dangerouslySetInnerHTML={{ __html: infos[language] }}>
 						</li>
 					)
 				}

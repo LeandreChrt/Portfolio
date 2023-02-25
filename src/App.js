@@ -11,6 +11,10 @@ function App() {
 	const [language, setLanguage] = useState("fr");
 	const [sidenavActive, setSidenavActive] = useState(false);
 
+	useEffect(() => {
+		document.title = "Portfolio - Léandre Chretiennot"
+	}, [])
+
 	return (
 		<div className='MainContainer'>
 			<Navbar setSidenavActive={setSidenavActive} sidenavActive={sidenavActive} language={language} setLanguage={setLanguage} />
