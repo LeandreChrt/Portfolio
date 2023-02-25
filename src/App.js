@@ -20,9 +20,9 @@ function App() {
 			<Navbar setSidenavActive={setSidenavActive} sidenavActive={sidenavActive} language={language} setLanguage={setLanguage} />
 			<div className={`mainApp ${sidenavActive ? "sidenavActive" : ""}`}>
 				<Routes>
-					<Route path='/' element={<MainHome language={language} />} />
-					<Route path='/profile' element={<MainProfile language={language} />} />
-					<Route path='/projects' element={<MainProject language={language} />} />
+					<Route path='/Portfolio' element={<MainHome language={language} />} />
+					<Route path='/Portfolio/profile' element={<MainProfile language={language} />} />
+					<Route path='/Portfolio/projects' element={<MainProject language={language} />} />
 				</Routes>
 			</div>
 		</div>

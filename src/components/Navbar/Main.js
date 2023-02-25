@@ -63,13 +63,13 @@ export default function Navbar(props) {
 				<a onClick={x => props.setSidenavActive(false)} className="close clickable">&larr;</a>
 				<ul>
 					<li>
-						<Link to={""}>{text.accueil[language]}</Link>
+						<Link to={"Portfolio/"}>{text.accueil[language]}</Link>
 					</li>
 					<li>
-						<Link to={"profile"}>{text.profile[language]}</Link>
+						<Link to={"Portfolio/profile"}>{text.profile[language]}</Link>
 					</li>
 					<li>
-						<Link to={"projects"}>{text.projects[language]}</Link>
+						<Link to={"Portfolio/projects"}>{text.projects[language]}</Link>
 					</li>
 				</ul>
 			</div>
