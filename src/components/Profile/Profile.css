@@ -3,24 +3,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: scroll;
 }
 
 #profileContainer .topContainer, #profileContainer .bottomContainer {
     width: 100%;
     text-align: center;
-    overflow: scroll;
 }
 
 #profileContainer .topContainer {
     display: flex;
     align-items: start;
     justify-content: center;
-    height: 70vh;
     margin-top: 2vh;
-}
-
-#profileContainer .bottomContainer {
-    height: 30vh;
 }
 
 #profileContainer .rightContainer, #profileContainer .leftContainer {
