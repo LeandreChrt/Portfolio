@@ -1,13 +1,17 @@
 #projectsContainer {
-    margin: 10vh 15%;
+    overflow: scroll;
+    height: 100%;
 }
 
 #projectsContainer .projectList {
     display: flex;
+    margin-top: 10vh;
 }
 
 #projectsContainer .projectList, #projectsContainer .projectBox {
     width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #projectsContainer .projectNameBox {
@@ -53,10 +57,11 @@
 
 #projectsContainer .projectBox {
     border: 1px solid var(--SecondaryColor);
-    height: calc(80vh - var(--ProjectTitleSize));
+    height: 550px;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    margin-bottom: 10vh;
 }
 
 #projectsContainer .mainProjectSection {
