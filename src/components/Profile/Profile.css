@@ -8,18 +8,19 @@
 #profileContainer .topContainer, #profileContainer .bottomContainer {
     width: 100%;
     text-align: center;
+    overflow: scroll;
 }
 
 #profileContainer .topContainer {
     display: flex;
     align-items: start;
     justify-content: center;
-    height: 73vh;
+    height: 70vh;
     margin-top: 2vh;
 }
 
 #profileContainer .bottomContainer {
-    height: 25vh;
+    height: 30vh;
 }
 
 #profileContainer .rightContainer, #profileContainer .leftContainer {
@@ -52,6 +53,7 @@
 
 #profileContainer .coordinates {
     margin-top: 5vh;
+    margin-bottom: 2vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
