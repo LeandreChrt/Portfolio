@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.12f73d44.css",
+    "main.js": "/Portfolio/static/js/main.72dfb95e.js",
+    "static/media/leandrechretiennot.jpg": "/Portfolio/static/media/leandrechretiennot.0b6a66711dd542281606.jpg",
+    "static/media/Mako_1.png": "/Portfolio/static/media/Mako_1.c43231eb79e40d41a497.png",
+    "static/media/Mako_2.jpg": "/Portfolio/static/media/Mako_2.537c008526fccebc66d7.jpg",
+    "static/media/Mako_4.jpg": "/Portfolio/static/media/Mako_4.9ef278d25ceac496d2e6.jpg",
+    "static/media/Mako_3.jpg": "/Portfolio/static/media/Mako_3.a4983c76baee15ff975c.jpg",
+    "static/media/Jeu_de_Role_1.png": "/Portfolio/static/media/Jeu_de_Role_1.8b898c0bf31c95c007b0.png",
+    "static/media/Jeu_de_Role_3.png": "/Portfolio/static/media/Jeu_de_Role_3.d8fa21403f792c4587fd.png",
+    "static/media/Jeu_de_Role_2.png": "/Portfolio/static/media/Jeu_de_Role_2.a26813a5fe007f5fac39.png",
+    "static/media/Kooloc_1.png": "/Portfolio/static/media/Kooloc_1.228dbd5081f445ace5a5.png",
+    "static/media/Pokemon_Dimension_3.png": "/Portfolio/static/media/Pokemon_Dimension_3.853709929c6783836e9d.png",
+    "static/media/Pokemon_Dimension_2.png": "/Portfolio/static/media/Pokemon_Dimension_2.7d81d016748b6394d70f.png",
+    "static/media/Pokemon_Dimension_4.png": "/Portfolio/static/media/Pokemon_Dimension_4.da9bfbea85bc61e61788.png",
+    "static/media/Pokemon_Dimension_1.png": "/Portfolio/static/media/Pokemon_Dimension_1.ab0d1d29dfeb12b75c8e.png",
+    "static/media/Pokemon_Dimension_5.png": "/Portfolio/static/media/Pokemon_Dimension_5.4541436d69c5b3325a96.png",
+    "static/media/proform_1.jpg": "/Portfolio/static/media/proform_1.e1e39b13838f0b34e660.jpg",
+    "static/media/proform_2.jpg": "/Portfolio/static/media/proform_2.22b92af18f1a973b5e22.jpg",
+    "static/media/proform_3.jpg": "/Portfolio/static/media/proform_3.786983a551e9d32d94ac.jpg",
+    "static/media/proform_4.jpg": "/Portfolio/static/media/proform_4.9f190f3d0d29f670b37d.jpg",
+    "static/media/proform_5.jpg": "/Portfolio/static/media/proform_5.7c3825f5c566fac7e63c.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.12f73d44.css.map": "/Portfolio/static/css/main.12f73d44.css.map",
+    "main.72dfb95e.js.map": "/Portfolio/static/js/main.72dfb95e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12f73d44.css",
+    "static/js/main.72dfb95e.js"
+  ]
+}
