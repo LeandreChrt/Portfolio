@@ -65,12 +65,12 @@
         }, {
             "title": {
                 "fr": "Pokémon Dimension (WIP)",
-                "en": "Pokemon Dimension (WIP)",
+                "en": "Pokémon Dimension (WIP)",
                 "jp": ""
             },
             "explenation": {
-                "fr": "Pokémon Dimension est un fangame pokémon développé sur RPG Maker XP.<br/>Ce jeu inclut : Une nouvelle région à explorer ! Plus de 150 pokémons originaux à attraper ! Une nouvelle mécanique de combat !",
-                "en": "Pokémon Dimension is a pokémon fangame developed on RPG Maker XP.<br/>This game includes : A new region to explore ! Over 150 original pokémons to catch ! A new mechanic in battle !",
+                "fr": "Pokémon Dimension est un fangame Pokémon développé sur RPG Maker XP.<br/>Ce jeu inclut : Une nouvelle région à explorer ! Plus de 150 pokémons originaux à attraper ! Une nouvelle mécanique de combat !",
+                "en": "Pokémon Dimension is a Pokémon fangame developed on RPG Maker XP.<br/>This game includes : A new region to explore ! Over 150 original pokémons to catch ! A new mechanic in battle !",
                 "jp": ""
             },
             "techno": [

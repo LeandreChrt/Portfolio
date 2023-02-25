@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     overflow: scroll;
+    overflow-x: auto;
 }
 
 #profileContainer .topContainer, #profileContainer .bottomContainer {

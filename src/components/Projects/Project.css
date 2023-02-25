@@ -1,5 +1,6 @@
 #projectsContainer {
     overflow: scroll;
+    overflow-x: auto;
     height: 100%;
 }
 
