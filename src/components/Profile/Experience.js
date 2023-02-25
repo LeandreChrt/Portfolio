@@ -7,7 +7,7 @@ export default function Experience(props) {
 
     return (
 		<div className='experienceContainer'>
-            <h2 className='experienceTitle'>{experience.title[language]} ({experience.years.join(" - ")})</h2>
+            <h3 className='title'>{experience.title[language]} ({experience.years.join(" - ")})</h3>
 			<ul className='experienceInfos'>
 				{
 					experience.additionalContent.map((infos, idx) =>

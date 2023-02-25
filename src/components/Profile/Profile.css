@@ -8,48 +8,63 @@
 #profileContainer .topContainer, #profileContainer .bottomContainer {
     width: 100%;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #profileContainer .topContainer {
-    height: 68vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 73vh;
     margin-top: 2vh;
 }
 
 #profileContainer .bottomContainer {
-    height: 30vh;
+    height: 25vh;
 }
 
 #profileContainer .rightContainer, #profileContainer .leftContainer {
     width: 50%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
 }
 
-/* #profileContainer .rightContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: start;
-} */
-
-#profileContainer .experienceContainer {
+#profileContainer .experienceContainer, #profileContainer .languagesContainer {
     border: 1px solid var(--SecondaryColor);
     flex: 1;
-    margin: 10px 5%;
+    margin: 10px 1vw;
     padding: 10px;
     text-align: start;
 }
 
-#profileContainer .experienceTitle {
+#profileContainer .title {
     margin-bottom: 10px;
 }
 
-#profileContainer .experienceInfo {
+#profileContainer li {
     margin: 5px 0;
+}
+
+#profileContainer ul.hobbies {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+#profileContainer .coordinates {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#profileContainer .languagesContainer {
+    display: flex;
+}
+
+#profileContainer .languagesContainer > div {
+    width: 50%;
+}
+
+#profileContainer h2 {
+    margin-top: 15px;
 }

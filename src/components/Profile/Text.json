@@ -23,8 +23,8 @@
                     "en": "Design and production of web pages at the request of the client",
                     "jp": ""
                 }, {
-                    "fr": "Traitement de données",
-                    "en": "Data processing",
+                    "fr": "Structuration de base de données",
+                    "en": "",
                     "jp": ""
                 }, {
                     "fr": "Rédaction de la documentation technique du framework interne",
@@ -33,6 +33,18 @@
                 }, {
                     "fr": "Réunions et prises de décisions concernant les évolutions de la plateforme",
                     "en": "Meetings and decision-making regarding platform developments",
+                    "jp": ""
+                }, {
+                    "fr": "Travail en collaboration avec les équipes de Londres et de Lyon",
+                    "en": "Work in collaboration with the London and Lyon teams",
+                    "jp": ""
+                }, {
+                    "fr": "Recette de projets internes et externes",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Réalisation de challenges écologiques au sein de l'entreprise",
+                    "en": "",
                     "jp": ""
                 }
             ]
@@ -101,8 +113,8 @@
         {
             "years": [2021, 2023],
             "title": {
-                "fr": "Web@cadémie par EPITECH",
-                "en": "Web@cadémie by EPITECH",
+                "fr": "Web@cadémie par EPITECH - GPA de 3.42/4",
+                "en": "Web@cadémie by EPITECH - GPA of 3.42/4",
                 "jp": ""
             },
             "additionalContent": [
@@ -115,47 +127,57 @@
                     "en": "Teamwork with individual management of workloads and deadlines",
                     "jp": ""
                 }, {
-                    "fr": "Management de l'équipe et du projet",
-                    "en": "Team and project management",
+                    "fr": "Management de l'équipe de développement",
+                    "en": "Development team management",
                     "jp": ""
                 }, {
                     "fr": "Assistant pédagogique pour des étudiants BM2 de l'ISG Paris",
                     "en": "Pedagogical assistant for BM2 students from ISG Paris",
                     "jp": ""
-                }, {
-                    "fr": "GPA de 3.42/4",
-                    "en": "GPA of 3.42/4",
-                    "jp": ""
                 }
             ]
         },
         {
-            "years": [2018],
+            "years": [2008, 2017],
             "title": {
-                "fr": "PSC1",
-                "en": "Prevention and first aid level 1",
+                "fr": "Instruction auto-gérée",
+                "en": "World schooling",
                 "jp": ""
             },
-            "additionalContent": []
-        },
-        {
-            "years": [2008, 2019],
-            "title": {
-                "fr": "Instruction à domicile",
-                "en": "Home schooling",
-                "jp": ""
-            },
-            "additionalContent": []
+            "additionalContent": [
+                {
+                    "fr": "Visite de musées et nombreux lieux culturels",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "Tour du monde, sac au dos pendant 11 mois",
+                    "en": "",
+                    "jp": ""
+                }, {
+                    "fr": "PSC1 (Prévention et secours civiques de niveau 1)",
+                    "en": "Prevention and first aid level 1",
+                    "jp": ""
+                }, {
+                    "fr": "Initiation à la cartographie et à l'astronomie",
+                    "en": "",
+                    "jp": ""
+                }
+            ]
         }
     ],
+    "language": {
+        "fr": "Langues",
+        "en": "Languages",
+        "jp": ""
+    },
     "languages": [
         {
             "fr": "Français : Langue maternelle",
             "en": "French : Native language",
             "jp": ""
         }, {
-            "fr": "Anglais : Courant (C1)",
-            "en": "English : Fluent (C1)",
+            "fr": "Anglais : Courant (C1) (2 ans en communautés internationalles; Voyages en Europe/Asie/Amérique du nord; Travaux avec des développeurs londoniens)",
+            "en": "English : Fluent (C1) ()",
             "jp": ""
         }, {
             "fr": "Japonais : A2",
@@ -163,41 +185,55 @@
             "jp": ""
         }
     ],
+    "computerLanguage": {
+        "fr": "Languages informatiques",
+        "en": "Computer languages",
+        "jp": ""
+    },
     "computerLanguages": [
-        "HTML : 8/10",
-        "CSS : 8/10",
+        "HTML / CSS : 8/10",
         "JavaScript : 8/10 (JQuery, NodeJS, React, VueJS)",
         "PHP : 7/10 (Symfony)",
         "C# : 4/10 (Razor)",
         "Ruby : 3/10 (Ruby On Rails, RPG Maker XP)"
     ],
+    "hobby": {
+        "fr": "Centres d'intêrets",
+        "en": "Hobbies",
+        "jp": ""
+    },
     "hobbies": [
         {
-            "fr": "Voyages (Séjour allant jusqu'à 4 mois dans près de 20 pays)",
-            "en": "Travel (Stay of up to 4 months in nearly 20 countries)",
-            "jp": ""
-        }, {
-            "fr": "Hockey sur gazon (10 ans en club, vice-champion de France)",
-            "en": "Field hockey (10 years in club, vice-champion of France)",
+            "fr": "Culture et sous-culture japonaise",
+            "en": "Japanese culture and sub-culture",
             "jp": ""
         }, {
             "fr": "Volleyball (2 ans en club)",
             "en": "Volleyball (2 years in club)",
             "jp": ""
         }, {
-            "fr": "Culture et sous-culture japonaise",
-            "en": "Japanese culture and sub-culture",
+            "fr": "Créateur et animateur de jeux de rôles",
+            "en": "Creator and animator of role-playing games",
             "jp": ""
         }, {
             "fr": "Gaming et jeux de plateau",
             "en": "Video gaming and board game",
             "jp": ""
         }, {
-            "fr": "Créateur et animateur de jeux de rôles",
-            "en": "Creator and animator of role-playing games",
+            "fr": "Voyages (Séjour dans près de 20 pays)",
+            "en": "Travel (Stay in nearly 20 countries)",
+            "jp": ""
+        }, {
+            "fr": "Hockey sur gazon (10 ans en club, vice-champion de France)",
+            "en": "Field hockey (10 years in club, vice-champion of France)",
             "jp": ""
         }
     ],
+    "infos": {
+        "fr": "Informations de contact",
+        "en": "Contact informations",
+        "jp": ""
+    },
     "links": {
         "github": "https://github.com/LeandreChrt"
     },

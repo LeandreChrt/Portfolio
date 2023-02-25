@@ -40,6 +40,7 @@ export default function MainHome(props) {
                     speed={30}>
                 </TypeAnimation>
                 <h1 className='name'>Léandre CHRETIENNOT</h1>
+                <h4>{text.age[language]}</h4>
                 <div className='situation'>
                     <h2>{text.metier[language]}</h2>
                     <h3 dangerouslySetInnerHTML={{ __html: text.situation[language] }}></h3>
