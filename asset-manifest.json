@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.12f73d44.css",
-    "main.js": "/Portfolio/static/js/main.55cc3942.js",
+    "main.js": "/Portfolio/static/js/main.393ab15c.js",
     "static/media/leandrechretiennot.jpg": "/Portfolio/static/media/leandrechretiennot.0b6a66711dd542281606.jpg",
     "static/media/Mako_1.png": "/Portfolio/static/media/Mako_1.c43231eb79e40d41a497.png",
     "static/media/Mako_2.jpg": "/Portfolio/static/media/Mako_2.537c008526fccebc66d7.jpg",
@@ -23,10 +23,10 @@
     "static/media/proform_5.jpg": "/Portfolio/static/media/proform_5.7c3825f5c566fac7e63c.jpg",
     "index.html": "/Portfolio/index.html",
     "main.12f73d44.css.map": "/Portfolio/static/css/main.12f73d44.css.map",
-    "main.55cc3942.js.map": "/Portfolio/static/js/main.55cc3942.js.map"
+    "main.393ab15c.js.map": "/Portfolio/static/js/main.393ab15c.js.map"
   },
   "entrypoints": [
     "static/css/main.12f73d44.css",
-    "static/js/main.55cc3942.js"
+    "static/js/main.393ab15c.js"
   ]
 }
