@@ -24,7 +24,7 @@
                     "jp": ""
                 }, {
                     "fr": "Structuration de base de données",
-                    "en": "",
+                    "en": "Database Structuring",
                     "jp": ""
                 }, {
                     "fr": "Rédaction de la documentation technique du framework interne",
@@ -40,11 +40,11 @@
                     "jp": ""
                 }, {
                     "fr": "Recette de projets internes et externes",
-                    "en": "",
+                    "en": "Acceptance test of internal and external projects",
                     "jp": ""
                 }, {
                     "fr": "Réalisation de challenges écologiques au sein de l'entreprise",
-                    "en": "",
+                    "en": "Achievement of ecological challenges within the company",
                     "jp": ""
                 }
             ]
@@ -147,11 +147,11 @@
             "additionalContent": [
                 {
                     "fr": "Visite de musées et nombreux lieux culturels",
-                    "en": "",
+                    "en": "Visit of museums and many cultural places",
                     "jp": ""
                 }, {
                     "fr": "Tour du monde, sac au dos pendant 11 mois",
-                    "en": "",
+                    "en": "Around the world with a backpack for 11 months",
                     "jp": ""
                 }, {
                     "fr": "PSC1 (Prévention et secours civiques de niveau 1)",
@@ -159,12 +159,17 @@
                     "jp": ""
                 }, {
                     "fr": "Initiation à la cartographie et à l'astronomie",
-                    "en": "",
+                    "en": "Introduction to cartography and astronomy",
                     "jp": ""
                 }
             ]
         }
     ],
+    "languagesMainTitle": {
+        "fr": "Langues et Languages",
+        "en": "Languages and Computer languages",
+        "jp": ""
+    },
     "language": {
         "fr": "Langues",
         "en": "Languages",
@@ -177,7 +182,7 @@
             "jp": ""
         }, {
             "fr": "Anglais : Courant (C1) (2 ans en communautés internationalles; Voyages en Europe/Asie/Amérique du nord; Travaux avec des développeurs londoniens)",
-            "en": "English : Fluent (C1) ()",
+            "en": "English : Fluent (C1) (2 years in international communities; Travel in Europe/Asia/North America; Works with London developers)",
             "jp": ""
         }, {
             "fr": "Japonais : A2",

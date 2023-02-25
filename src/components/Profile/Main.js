@@ -17,7 +17,7 @@ export default function MainProfile(props) {
 				<div className='rightContainer'>
 					<h2>{text.education[language]}</h2>
 					{text.educations.map((experience, key) => <Experience key={key} language={language} experience={experience}></Experience>)}
-					<h2>Langues et Languages</h2>
+					<h2>{text.languagesMainTitle[language]}</h2>
 					<div className='languagesContainer'>
 						<div className='languages'>
 							<h3 className='title'>{text.language[language]}</h3>

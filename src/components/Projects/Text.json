@@ -30,7 +30,7 @@
             },
             "explenation": {
                 "fr": "Mak'o est le projet de fin de première année à la Web@cadémie. Il s'agit d'un site d'e-commerce inspiré d'Amazon, avec une notion écologiste en plus.<br/><a target='_blank' href='https://github.com/dounyadelren/plateforme_ecommerce_mako'>Code source</a>",
-                "en": "",
+                "en": "Mak'o is our first year project at the Web@cadémie. It is an e-commerce site inspired by Amazon, with an additional ecological concept.<br/><a target='_blank' href='https://github.com/dounyadelren/plateforme_ecommerce_mako '>Source code</a>",
                 "jp": ""
             },
             "techno": [
@@ -92,7 +92,7 @@
             },
             "explenation": {
                 "fr": "Kooloc est notre projet de fin de formation. Il s'agit d'une plateforme facilitant la gestion de sa colocation.<br/>Bien qu'en court de développement, nous avons l'intention dans le futur d'en faire une application mobile.",
-                "en": "",
+                "en": "Kooloc is our graduation project. This is a platform that makes it easier to manage your houseshare.<br/>Although under development, we intend to make it a mobile application in the future.",
                 "jp": ""
             },
             "techno": [
