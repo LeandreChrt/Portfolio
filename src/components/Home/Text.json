@@ -1,17 +1,17 @@
 {
     "situation": {
-        "fr": "En alternance chez <a target='_blank' href='https://vpwhite.com/'>VPWhite</a>",
-        "en": "Work-study at <a target='_blank' href='https://vpwhite.com/'>VPWhite</a>",
+        "fr": "Etudiant en Game Design & Programming <a target='_blank' href='https://www.isart.fr/formations/jeu-video/game-design-programming/'>ISART Digital</a>",
+        "en": "Student in Game Design & Programming at <a target='_blank' href='https://www.isart.com/degree-programs/video-games/game-design-programming/'>ISART Digital</a>",
         "jp": ""
     },
     "metier": {
-        "fr": "Développeur full-stack",
-        "en": "Full-stack developer",
+        "fr": "Gameplay programmer",
+        "en": "Gameplay programmer",
         "jp": ""
     },
     "age": {
-        "fr": "21 ans",
-        "en": "21 years old",
+        "fr": "22 ans",
+        "en": "22 years old",
         "jp": ""
     }
 }
